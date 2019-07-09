@@ -4,3 +4,8 @@ class myClass:
     self.age = age
   def getData(self):
     return [self.name, self.age]
+    
+class thirdClass:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
